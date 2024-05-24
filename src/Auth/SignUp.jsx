@@ -133,7 +133,7 @@ export function SignUp() {
                 <div className="flex items-center justify-between">
                   <label htmlFor="password" className="text-base font-medium text-gray-900">
                     {' '}
-                    Password{' '}
+                    Password (atleast 8 characters long){' '}
                   </label>
                 </div>
                 <div className="mt-2">
