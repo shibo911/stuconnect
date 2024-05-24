@@ -10,7 +10,7 @@ const OtpForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.get('http://localhost:8088/api/v1/auth/activate-account', {
+      const response = await axios.get('https://stuconnect-backend-production.up.railway.app/api/v1/auth/activate-account', {
         params: { token: otp },
       });
       setMessage(response.data.message || 'OTP submitted successfully!');

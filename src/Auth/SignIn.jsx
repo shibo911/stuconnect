@@ -20,7 +20,7 @@ export function SignIn() {
     event.preventDefault();
     
     try {
-      const response = await fetch('http://localhost:8088/api/v1/auth/authenticate', {
+      const response = await fetch('https://stuconnect-backend-production.up.railway.app/api/v1/auth/authenticate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
