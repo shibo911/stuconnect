@@ -28,13 +28,13 @@ export function Sidebar({ onDarkModeToggle }) {
     <aside className="flex h-screen w-64 flex-col overflow-y-auto border-r bg-black dark:bg-gray-50 px-5 py-8 fixed">
       <div class="flex">
         <img
-          src="src\components\ui\logo.jpg"
+          src="/images/logo.jpg"
           alt="logo"
           class="h-10 w-10 dark:invert"
         />
         <div>
           <img
-            src="src\components\ui\stuconnect_logo.png"
+            src="/images/stuconnect_logo.png"
             alt="STUCONNECT"
             class="h-6 mt-2 dark:invert"
           />
