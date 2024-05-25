@@ -25,7 +25,7 @@ export function Sidebar({ onDarkModeToggle }) {
   };
   let IconComponent = currentLogo;
   return (
-    <aside className="flex h-screen w-64 flex-col overflow-y-auto border-r bg-black dark:bg-gray-50 px-5 py-8">
+    <aside className="flex h-screen w-64 flex-col overflow-y-auto border-r bg-black dark:bg-gray-50 px-5 py-8 fixed">
       <div class="flex">
         <img
           src="src\components\ui\logo.jpg"
